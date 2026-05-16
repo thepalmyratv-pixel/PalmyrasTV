@@ -1,71 +1,65 @@
 body {
-    background: #050505;
+    background: #0b0b0b;
     color: white;
-    font-family: 'Segoe UI';
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-.hero {
-    height: 90vh;
-    background: url('/images/banner.jpg');
-    background-size: cover;
-    background-position: center;
+.hero-banner {
     position: relative;
+    height: 500px;
+    overflow: hidden;
 }
 
-.overlay {
-    height: 100%;
-    padding: 120px 60px;
-    background: linear-gradient(to right,
-            rgba(0,0,0,.95),
-            rgba(0,0,0,.5),
-            transparent);
+.hero-banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.5;
 }
 
-.trending {
-    color: red;
-    font-size: 18px;
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
 }
 
-.hero-title {
-    font-size: 90px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.hero-content h1 {
+    font-size: 60px;
 }
 
-.hero-info {
-    font-size: 20px;
-    color: #ddd;
-}
-
-.hero-desc {
-    width: 500px;
-    line-height: 1.7;
-    color: #ccc;
-}
-
-.hero-buttons {
-    margin-top: 30px;
-}
-
-.play-btn {
+.hero-content button {
+    padding: 12px 25px;
+    border: none;
     background: red;
-    border: none;
     color: white;
-    padding: 14px 30px;
-    border-radius: 8px;
     font-size: 18px;
-    margin-right: 15px;
-    cursor: pointer;
+    border-radius: 5px;
 }
 
-.list-btn {
-    background: #222;
-    border: none;
-    color: white;
-    padding: 14px 30px;
-    border-radius: 8px;
-    font-size: 18px;
-    cursor: pointer;
+.section {
+    padding: 30px;
+}
+
+.movie-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.movie-card {
+    min-width: 220px;
+    transition: 0.3s;
+}
+
+.movie-card img {
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
 }
