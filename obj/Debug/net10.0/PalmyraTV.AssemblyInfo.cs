@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PalmyraTV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b5aef956051c3d9fbe6fba2d8b0c1fa944f7f7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b018baa9b407f1f8f1e9b0911274d9e3b526f468")]
 [assembly: System.Reflection.AssemblyProductAttribute("PalmyraTV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PalmyraTV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
