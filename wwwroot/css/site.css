@@ -60,6 +60,66 @@ body {
     object-fit: cover;
 }
 
+.movie-card video {
+    width: 220px;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+    background: black;
+}
+
 .movie-card:hover {
     transform: scale(1.05);
+}
+
+.footer-section {
+    background: #050505;
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+    border-top: 1px solid #222;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 40px 40px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    color: #aaa;
+    line-height: 1.7;
+}
+
+.footer-section a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: red;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+    color: #888;
 }
