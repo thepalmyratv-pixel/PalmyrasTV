@@ -9,7 +9,7 @@ namespace PalmyraTV.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Store()
         {
             return View();
         }
