@@ -49,19 +49,19 @@ body {
 }
 
 .movie-card {
-    min-width: 220px;
+    min-width: 160px;
     transition: 0.3s;
 }
 
 .movie-card img {
-    width: 220px;
+    width: 160px;
     height: 130px;
     border-radius: 10px;
     object-fit: cover;
 }
 
 .movie-card video {
-    width: 220px;
+    width: 160px;
     height: 130px;
     border-radius: 10px;
     object-fit: cover;
@@ -122,4 +122,39 @@ body {
     padding: 20px;
     border-top: 1px solid #222;
     color: #888;
+}
+
+.mobile-nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0b0b0b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #222;
+    z-index: 9999;
+}
+
+.mobile-nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mobile-nav span{
+    font-size: 22px;
+}
+
+.mobile-nav p{
+    margin: 0;
+    font-size: 12px;
+}
+
+@media(min-width:768px){
+    .mobile-nav{
+        display:none;
+    }
 }
