@@ -157,6 +157,35 @@ body {
     .mobile-nav{
         display:none;
     }
+
+    .hero-banner{
+        height: 300px;
+    }
+
+    .hero-banner img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .hero-content{
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .hero-content h1{
+        font-size: 32px;
+    }
+
+    .hero-content p{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .hero-content button{
+        padding: 10px 18px;
+        font-size: 14px;
+    }
 }
 
 .store-page{
