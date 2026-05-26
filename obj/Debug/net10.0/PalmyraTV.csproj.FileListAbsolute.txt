@@ -95,4 +95,4 @@ C:\Users\israv\PalmyraTV\obj\Debug\net10.0\PalmyraTV.genruntimeconfig.cache
 C:\Users\israv\PalmyraTV\obj\Debug\net10.0\ref\PalmyraTV.dll
 C:\Users\israv\PalmyraTV\obj\Debug\net10.0\PalmyraTV.sourcelink.json
 C:\Users\israv\PalmyraTV\obj\Debug\net10.0\compressed\204zbadqho-{0}-mubka3akes-mubka3akes.gz
-C:\Users\israv\PalmyraTV\obj\Debug\net10.0\compressed\rin3w6w1ph-{0}-tomjyxrzqt-tomjyxrzqt.gz
+C:\Users\israv\PalmyraTV\obj\Debug\net10.0\compressed\rin3w6w1ph-{0}-ac2ea136ot-ac2ea136ot.gz
