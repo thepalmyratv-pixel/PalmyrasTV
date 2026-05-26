@@ -4,22 +4,36 @@
 
 <div class="hero-banner">
 
-    <a href="https://famelack.com/tv/sports/buMnowpZSOvaCS" target="_blank">
+    <img src="/images/banner.jpg" class="hero-thumb" />
 
-        <video autoplay muted loop playsinline class="hero-video">
-            <source src="/videos/Assistvideos.mp4" type="video/mp4">
-        </video>
+    <div class="hero-overlay">
+        <h1>LIVE TV</h1>
+        <p>Watch Live Streaming</p>
 
-        <div class="hero-overlay">
-            <h1>LIVE TV</h1>
-            <p>Watch Now Streaming</p>
-
-            <button class="watch-btn">▶ Watch Live</button>
-        </div>
-
-    </a>
+        <button class="watch-btn" onclick="openLiveTV()">
+            ▶ Watch Live
+        </button>
+    </div>
 
 </div>
+
+<div id="liveTvPlayer" class="live-player">
+    <iframe
+        src="https://famelack.com/tv/sports/buMnowpZS0vaCS"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+
+<script>
+    function openLiveTV() {
+        document.getElementById("liveTvPlayer").style.display = "block";
+        window.scrollTo({
+            top: document.getElementById("liveTvPlayer").offsetTop,
+            behavior: "smooth"
+        });
+    }
+</script>
 
 <section class="section">
     <h2>Popular Videos</h2>
