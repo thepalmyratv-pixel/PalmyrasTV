@@ -1,17 +1,44 @@
 @{
-    ViewData["Palmyras TV Live"] = "Watch";
+    ViewData["Title"] = "Watch";
 }
 
 <div class="watch-page">
 
-    <h1>🔴 LIVE TV</h1>
+    <div class="watch-header">
 
-    <div class="live-player">
+        <h1>Palmyras TV Live</h1>
+
+        <p>Watch live streaming directly inside PalmyrasTV</p>
+
+        <button class="watch-btn" onclick="openPlayer()">
+            ▶ Watch Live
+        </button>
+
+    </div>
+
+    <div id="livePlayer" class="live-player">
+
         <iframe
             src="https://famelack.com/"
             frameborder="0"
             allowfullscreen>
         </iframe>
+
     </div>
 
 </div>
+
+<script>
+
+function openPlayer(){
+
+    document.getElementById("livePlayer").style.display = "block";
+
+    window.scrollTo({
+        top: document.getElementById("livePlayer").offsetTop,
+        behavior: "smooth"
+    });
+
+}
+
+</script>
